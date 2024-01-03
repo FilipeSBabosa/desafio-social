@@ -1,0 +1,42 @@
+@charset "UTf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+body{
+    background: url(../imagens/fundo-fotografico-em-tecido-madeira-2-20x1-50m-estudio.webp) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;}
+
+main{
+    position: relative;
+    height: 100vh;
+}
+section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 300px;
+    width: 248px;
+    background: url(../imagens/61d2f7b092b57c0004c64744.png) no-repeat
+}
+
+iframe#tela{
+    position: relative;
+    top: 7px;
+    left: 57px;
+    width: 133px;
+    height: 286px;
+
+}
